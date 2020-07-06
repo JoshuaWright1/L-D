@@ -1,0 +1,39 @@
+.row{
+    
+ @mixin clearfix;
+
+
+
+ @mixin  atMedium{
+    &--gutters {
+        padding-right: -65px;
+        overflow: hidden;
+
+        > div{
+        padding-right: 65px;
+        }
+
+       }
+
+        &__fourcol{
+            float: left;
+            width: 33.33%;
+            
+            &--larger{
+                float: left;
+
+                width: 37%;
+            }
+        }
+
+        &__eightcol{
+            float: left;
+            width: 66.66%;
+
+            &--smaller{
+                float: left;
+                width: 63%;
+            }
+        }
+ }
+}
