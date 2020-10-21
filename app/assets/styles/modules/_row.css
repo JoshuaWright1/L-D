@@ -2,7 +2,9 @@
     
  @mixin clearfix;
 
-
+ &__b-margin-until-medium{
+    margin-bottom: 1rem;
+}
 
  @mixin  atMedium{
     &--gutters {
@@ -24,6 +26,12 @@
 
                 width: 37%;
             }
+
+         
+        }
+
+        &__b-margin-until-medium{
+            margin-bottom: 0;
         }
 
         &__eightcol{
