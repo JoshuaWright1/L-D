@@ -4,18 +4,25 @@
 
  &__b-margin-until-medium{
     margin-bottom: 1rem;
-}
+    }
 
  @mixin  atMedium{
-    &--gutters {
-        padding-right: -65px;
-        overflow: hidden;
+        &--gutters {
+            padding-right: -65px;
+            overflow: hidden;
 
-        > div{
-        padding-right: 65px;
+            > div{
+            padding-right: 65px;
+            }
+
+            &-large{
+                margin-right: -100px;
+
+                > div{
+                    padding-right: 100px;
+                }
+            }
         }
-
-       }
 
         &__fourcol{
             float: left;
@@ -27,7 +34,12 @@
                 width: 37%;
             }
 
-         
+            
+        }
+
+        &__medium-6{
+            float: left;
+            width: 50%;
         }
 
         &__b-margin-until-medium{
@@ -43,5 +55,6 @@
                 width: 63%;
             }
         }
- }
+ 
+    }
 }
