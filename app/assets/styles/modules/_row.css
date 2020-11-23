@@ -10,32 +10,15 @@
     margin-bottom: 1rem;
     }
 
-&--gutters-small{
-    margin-right: -45px;
 
-    > div{
-        margin-right: 45px;
-    }
-}
 
  @mixin  atMedium{
-        &--gutters {
-            padding-right: -65px;
 
-            > div{
-            padding-right: 65px;
-            }
+   
+     
+        
 
-            &-large{
-                margin-right: -100px;
-
-                > div{
-                    padding-right: 100px;
-                }
-            }
-
-
-        }
+        
 
         &__fourcol, &__medium-4{
             float: left;
@@ -71,6 +54,14 @@
  
     }
     @mixin atLarge{
+        &--gutters-small{
+            margin-right: -45px;
+        
+            > div{
+                margin-right: 45px;
+            }
+        }
+
         &--gutters {
             padding-right: -65px;
 
@@ -78,13 +69,6 @@
             padding-right: 65px;
             }
 
-            &-large{
-                margin-right: -100px;
-
-                > div{
-                    padding-right: 100px;
-                }
-            }
 
 
         }
